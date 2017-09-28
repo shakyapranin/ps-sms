@@ -26,8 +26,8 @@ if(message.length > 304) {
 
 Scenario('Send Sms', (I) => {
 	I.amOnPage('/');
-	I.fillField('Username', 'shakyapranin@gmail.com');// make this fetable?
-	I.fillField('Password', 'P@!nkiller');// make this fetchable? ssh?
+	I.fillField('Username', 'email@gmail.com');// make this fetable?
+	I.fillField('Password', 'P@ssword');// make this fetchable? ssh?
 	I.click('#loginImage');
 	I.wait(5);
 	I.amOnPage('http://www.meet.net.np/meet/sms/sms');
